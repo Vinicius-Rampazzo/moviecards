@@ -1,10 +1,16 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Header from './components/Header';
+import MovieList from './components/MovieList';
+import Footer from './components/Footer';
+import movies from './data';
 
 function App() {
   return (
     <div className="App">
-      <h1>iniciando projeto</h1>
+      <Header />
+      <MovieList movies={ movies } />
+      <Footer />
     </div>
   );
 }
