@@ -29,6 +29,16 @@ body {
   text-align: center;
 }
 
+.page-title:hover {
+  background-color: rgb(146, 3, 3);
+  border-radius: 20px;
+  color: #cccdcf;
+  cursor: grab;
+  font-size: 40px;
+  padding: 20px;
+  transition: 0.5s;
+}
+
 .movie-list {
   display: flex;
   flex-flow: row wrap;
