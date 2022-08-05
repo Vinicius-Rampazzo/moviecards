@@ -152,11 +152,6 @@ footer {
     padding: 0;
   }
 
-  body {
-    /* background-color: yellow; */
-    /* box-sizing: border-box; */
-  }
-
   .movie-card-header {
     /* align-items: center;
     background-color: rgb(190, 2, 2);
@@ -213,7 +208,7 @@ footer {
     padding: 20px;
     width: 300px; */
     width: 200px;
-    height: 300px;
+    height: 320px;
     padding: 5%;
   }
 
@@ -225,6 +220,12 @@ footer {
     width: 140px;
     margin-top: 30px;
     padding: 0;
+  }
+
+  .card-img {
+    /* border-radius: 8px;
+    width: 100%; */
+    margin-bottom: -60px;
   }
 
   .movie-card-title {
@@ -268,5 +269,24 @@ footer {
     padding: 3px 9px; */
     font-size: 100%;
     padding: 2% 7%;
+  }
+
+  .movie-card-rating {
+    /* align-items: center;
+    background-color: rgb(190, 2, 2);
+    border-top: 1px solid rgba(255, 255, 255, 0.125);
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    justify-content: center; */
+    border-radius: 7px;
+  }
+
+  footer {
+    /* display: block;
+    margin-top: -100px;
+    text-align: center; */
+    margin-top: 20px;
+    margin-bottom: 10px;
   }
 }
