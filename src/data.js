@@ -24,7 +24,7 @@ const movies = [
   {
     title: 'Justice League',
     subtitle: 'Justice League',
-    storyline: 'Driven by the restoration of his faith in humanity and inspired by the selfless act of Superman, Bruce Wayne summons his new ally Diana Prince to battle against an even greater, newly awakened enemy. Together, Batman and Wonder Woman agilely seek out and recruit a team of meta-humans, but even with the unprecedented formation of the hero league, it could be too late to save the planet from a catastrophic onslaught.',
+    storyline: 'Driven by the restoration of his faith in humanity and inspired by the selfless act of Superman, Bruce Wayne summons his new ally Diana Prince to battle against an even greater, newly awakened enemy.',
     rating: 2.0,
     imagePath: 'https://www.hollywoodreporter.com/wp-content/uploads/2017/10/dmbgznxx4aaysjv_-_p_2017.jpg?w=681&h=383&crop=1',
   },
